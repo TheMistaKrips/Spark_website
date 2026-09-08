@@ -122,7 +122,7 @@ const Footer = () => {
                 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <img
-                            src="/Spark.png"
+                            src="/spark.png"
                             alt="Prismi Mini"
                             style={{
                                 width: '16px',
