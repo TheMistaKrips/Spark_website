@@ -112,7 +112,7 @@ const Header = () => {
                             <a href="#" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12 }}>
                                 <img
                                     src="/spark.png"
-                                    alt="Spark"
+                                    alt="Prismi"
                                     style={{
                                         width: '24px',
                                         height: '24px',
@@ -127,7 +127,7 @@ const Header = () => {
                                     letterSpacing: '-0.02em',
                                     fontFamily: 'Montserrat, sans-serif'
                                 }}>
-                                    SPARK
+                                    PRISMI
                                 </span>
                             </a>
 

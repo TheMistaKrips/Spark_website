@@ -49,7 +49,7 @@ const Footer = () => {
                                 color: 'var(--text-main)'
                             }}
                         >
-                            SPARK.
+                            Prismi.
                         </motion.h2>
                         <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', margin: 0, maxWidth: '400px' }}>
                             {dict.heroDesc.substring(0, 75)}...
@@ -122,8 +122,8 @@ const Footer = () => {
                 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <img
-                            src="/spark.png"
-                            alt="Spark Mini"
+                            src="/Spark.png"
+                            alt="Prismi Mini"
                             style={{
                                 width: '16px',
                                 height: '16px',
@@ -131,10 +131,10 @@ const Footer = () => {
                                 transition: 'filter 0.4s ease'
                             }}
                         />
-                        <span style={{ fontWeight: 600 }}>Spark Inc.</span>
+                        <span style={{ fontWeight: 600 }}>Prismi Inc.</span>
                     </div>
                     <div>
-                        © {new Date().getFullYear()} Spark Inc.
+                        © {new Date().getFullYear()} Prismi Inc.
                     </div>
                 </div>
             </div>

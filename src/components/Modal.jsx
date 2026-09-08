@@ -28,7 +28,7 @@ const Modal = ({ isOpen, onClose }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('loading');
-        const message = `Новая заявка на SPARK:\nИмя: ${formData.name}\nEmail: ${formData.email}\nTelegram: ${formData.telegram}`;
+        const message = `Новая заявка на PRISMI:\nИмя: ${formData.name}\nEmail: ${formData.email}\nTelegram: ${formData.telegram}`;
 
         try {
             const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
